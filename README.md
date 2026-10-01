@@ -1,4 +1,4 @@
-echo "# SAKHI-AI-Your-Voice-Your-Language-Your-Rights-" >> README.md
+echo "# Hackathon" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
