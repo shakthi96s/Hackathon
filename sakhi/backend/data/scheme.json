@@ -1,0 +1,73 @@
+[
+  {
+    "id": "ujjwala",
+    "name": "Pradhan Mantri Ujjwala Yojana",
+    "category": "Clean cooking",
+    "summary": "Support for eligible adult women from low-income households to get an LPG connection.",
+    "url": "https://www.pmuy.gov.in/",
+    "matchReason": "You may meet the age and household criteria. A new connection is subject to the official household and document checks.",
+    "rules": { "woman": true, "minAge": 18, "noLpg": true }
+  },
+  {
+    "id": "pmmvy",
+    "name": "Pradhan Mantri Matru Vandana Yojana",
+    "tamilName": "பிரதான் மந்திரி மாத்ரு வந்தனா யோஜனா",
+    "category": "Maternity support",
+    "purpose": "Pregnant women receive financial assistance.",
+    "targetUsers": ["Pregnant women", "Women with young children"],
+    "eligibility": { "minAge": 19, "maxMonthlyIncome": 30000 },
+    "requiredDocuments": ["Aadhaar Card", "Bank Passbook", "Pregnancy Registration Document"],
+    "applicationMethod": "Anganwadi Centre",
+    "applicationUrl": "https://wcd.gov.in/",
+    "help": "Women and Child Development Helpline",
+    "steps": [
+      "Visit nearest Anganwadi Centre",
+      "Carry Aadhaar Card",
+      "Carry Bank Passbook",
+      "Submit application"
+    ],
+    "summary": "A maternity benefit programme for eligible pregnant and lactating women, subject to scheme conditions.",
+    "url": "https://pmmvy.wcd.gov.in/",
+    "matchReason": "You indicated that you are pregnant or caring for a recent newborn. Check the current registration window and exclusions with your local Anganwadi centre.",
+    "rules": { "woman": true, "pregnantOrNewborn": true }
+  },
+  {
+    "id": "lakhpati-didi",
+    "name": "Lakhpati Didi initiative",
+    "category": "Livelihoods",
+    "summary": "Skills and enterprise support for women connected with Self-Help Groups (SHGs).",
+    "url": "https://nrlm.gov.in/",
+    "matchReason": "You are part of a Self-Help Group. Ask your SHG or the local rural livelihoods mission about available training and support.",
+    "rules": { "woman": true, "shgMember": true }
+  },
+  {
+    "id": "sukanya-samriddhi",
+    "name": "Sukanya Samriddhi Account",
+    "category": "Savings for a girl child",
+    "summary": "A government-backed small savings account that a guardian can open for a girl child under 10.",
+    "url": "https://www.nsiindia.gov.in/",
+    "matchReason": "You have a girl child under 10. A parent or guardian can ask a participating bank or post office about opening an account.",
+    "rules": { "girlChildUnder10": true }
+  },
+  {
+    "id": "pmjdy",
+    "name": "Pradhan Mantri Jan-Dhan Yojana",
+    "category": "Bank account access",
+    "summary": "A basic savings account for people who do not already have a bank account. Ask a bank branch or Bank Mitra about opening an account and current terms.",
+    "url": "https://pmjdy.gov.in/scheme"
+  },
+  {
+    "id": "pmjjby",
+    "name": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+    "category": "Life insurance",
+    "summary": "A voluntary renewable life-insurance scheme for eligible bank or post-office account holders. Enrollment and age conditions apply; check current terms with the official portal or your bank.",
+    "url": "https://jansuraksha.gov.in/"
+  },
+  {
+    "id": "pmsby",
+    "name": "Pradhan Mantri Suraksha Bima Yojana",
+    "category": "Accident insurance",
+    "summary": "A voluntary accident-insurance scheme for eligible bank or post-office account holders. Enrollment and age conditions apply; check current terms with the official portal or your bank.",
+    "url": "https://jansuraksha.gov.in/"
+  }
+]
